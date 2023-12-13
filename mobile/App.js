@@ -50,7 +50,6 @@ export default function App() {
       setPosts((prevPosts) =>
         prevPosts.filter((post) => post.id !== selectedPostId)
       );
-      alert(`Delete post with ID ${selectedPostId}`);
     } catch (error) {
       alert(`Error deleting post with ID ${selectedPostId}: ${error.message}`);
     } finally {
