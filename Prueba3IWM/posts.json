@@ -31,12 +31,6 @@
       "image": "https://source.unsplash.com/random/200x200?sig=1"
     },
     {
-      "id": 6,
-      "title": "Post 6",
-      "author": "rickyurvina",
-      "image": "https://source.unsplash.com/random/200x200?sig=1"
-    },
-    {
       "id": 7,
       "title": "Post 7",
       "author": "davidaraya",
@@ -97,26 +91,8 @@
       "image": "https://source.unsplash.com/random/200x200?sig=1"
     },
     {
-      "id": 17,
-      "title": "Post 17",
-      "author": "rickyurvina",
-      "image": "https://source.unsplash.com/random/200x200?sig=1"
-    },
-    {
-      "id": 18,
-      "title": "Post 18",
-      "author": "invitado",
-      "image": "https://source.unsplash.com/random/200x200?sig=1"
-    },
-    {
       "id": 19,
       "title": "Post 19",
-      "author": "invitado",
-      "image": "https://source.unsplash.com/random/200x200?sig=1"
-    },
-    {
-      "id": 20,
-      "title": "Post 20",
       "author": "invitado",
       "image": "https://source.unsplash.com/random/200x200?sig=1"
     }
@@ -141,16 +117,6 @@
       "id": 4,
       "body": "Comment 2 for Post 2",
       "postId": 2
-    },
-    {
-      "id": 75,
-      "body": "Comment 3 for Post 20",
-      "postId": 20
-    },
-    {
-      "id": 76,
-      "body": "Comment 4 for Post 20",
-      "postId": 20
     }
   ]
 }
