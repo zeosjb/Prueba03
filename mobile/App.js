@@ -43,7 +43,7 @@ export default function App() {
             />
             <Card.Content>
               {getCommentsForPost(post.id).map(comment => (
-                <Text key={comment.id}>{comment.body}</Text>
+                <Text key={comment.id} style={styles.commentView}>{comment.body}</Text>
               ))}
             </Card.Content>
           </Card>
@@ -72,6 +72,12 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
     marginBottom: 10,
-    marginTop: 0,
+    marginTop: 5,
   },
+  commentView: {
+    backgroundColor: 'gray',
+    padding: 5,
+    borderRadius: 8,
+    marginBottom: 4
+  }
 });
